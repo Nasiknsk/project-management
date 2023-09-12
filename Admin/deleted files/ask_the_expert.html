@@ -1,0 +1,128 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="navi.css">
+   <!-- <link rel="stylesheet" type="text/css" href="style6.css">
+	<link rel="stylesheet" type="text/css" href="style7.css">
+	<link rel="stylesheet" href="like.css"/>
+    <script src="like.js"></script>-->
+</head>
+<body>
+<!--Navigation Bar -->
+<table style="width:100%" border="0" collapse="0">
+	<tr  style="height:20px">
+		<th  width="1%">
+		</th>
+		<th  width="5%" align="left">
+			<img src="images/logo.png" height="40px" width="40px"></a>
+		</th>
+		
+		<th width="5%">	
+			<div class="navbar">
+				<a href="a_main.html">Home</a>
+			</div>	
+		</th>
+		
+		
+		<th width="9%">
+			<div class="navbar">
+				<a href="mini.html"> Mini Course</a>
+			</div>	
+		</th>
+		
+		<th width="11%">		
+			<div class="navbar">
+				<a class="active" href="ask_the_expert.html"> Ask the Expert </a>
+			</div>	
+		</th>
+		
+		<th width="5%">
+			<div class="navbar">
+				<a href="inbox.html" class="notification">
+					<span><img src="images/inbox.png" height="25px" width="25px"></span>
+					<span class="badge">0</span>
+				</a>
+			</div>	
+		</th>
+		
+		<th width="7%">
+			<div class="navbar">
+				<a href="upload.html"> <img src="images/upload_i.png" height="25px" width="25px"></a>
+			</div>	
+		</th>
+		
+		<th width="7.1%" style="background-color:#2568FB;">	
+			<div class="navbar">
+				<a href="D:\0. Sliate\Assinments\2nd sem\Human\parted\commen user\main.html"><font color="white"><b>LOG OUT</b></font></a>
+			</div>	
+		</th>
+		
+		
+		<th >
+			<div class="topnav">
+				<div class="search-container">
+					<form action="#">
+						<input type="text" placeholder="Search.." name="search">
+						<button type="submit"><i>search</i></button>
+					</form>
+				</div>
+			</div>
+		</th>
+	</tr>
+</table>
+
+
+
+
+
+<br><br>
+
+
+
+<!--
+
+
+    <div class="QuestionBox">
+	    <h2>Question?<h2>
+		<form action="#">
+		    <textarea name="Question" id="" cols="30" rows="10" placeholder="Type Your Question..."></textarea>
+			<button type="submit">Submit</button>
+	</div>
+	<div class="Reply">
+			<textarea name="Reply" id="" cols="30" rows="10" placeholder="Reply..."></textarea>
+			<button type="submit" >Reply</button>
+		</form>
+		  
+    <div id="demoA"></div>
+
+
+    <script>
+    lidi.create({
+      status : 1, 
+      hWrap : document.getElementById("demoA"),
+      onChange : (status) => {
+        
+        var data = new FormData();
+        data.append("status", status);
+        fetch("1-dummy.txt", { method: "POST", body: data })
+        .then(res => res.text())
+        .then((txt) => { console.log(txt); })
+        .catch((err) => { console.error(err); });
+      }
+    });
+    </script>
+	
+-->
+
+
+<form>
+	<div>
+
+		<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;" rows="5" cols="60">
+			ask your Question here..
+		</textarea>
+	</div>
+
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>
